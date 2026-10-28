@@ -1,0 +1,61 @@
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header id="site-header">
+	<h1> Pixel Norte </h1>
+	<nav id="nav-principal">
+		<ul>
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="servicios.html">Servicios</a></li>
+			<li><a href="contacto.html">Contactos</a></li>
+		</ul>
+	</nav>
+</header>
+<main>
+	<section id="contacto">
+		<h2> Escribinos </h2>
+		<p> ¿Te quedó alguna duda? ¿Querés saber más sobre nuestros servicios? ¿Tenés un proyecto en mente? Contactanos. </p>
+		<form id="formulario-contacto" action="#" method="post">
+		<div>
+			<label for="nombre">Nombre completo:</label>
+			<input type="text" id="nombre" name="nombre" required>
+		</div>
+		<div>
+			<label for="Email">Correo Electrónico:</label>
+			<input type="email" id="Email" name="email" required>
+		</div>
+		<div>
+			<label for="tel">Teléfono:</label>
+			<input type="tel" id="tel" name="tel" required>
+		</div>
+		<p>
+			<label for="servicio">Servicios de interés:</label>
+			<select id="servicio" name="servicio">
+				<option value="grandes-empresas">Sitio para grandes empresas</option>
+				<option value="pequeñas-empresas">Sitio para pequeñas empresas</option>
+				<option value="tienda-digitales">Tiendas digitales</option>
+				<option value="mantenimiento">Mantenimiento</option>
+			</select>
+		</p>
+		<p> 
+			¿Cómo preferís contactarnos?<br>
+			<input type="checkbox" id="pref-email" name="preferencia" value="email">
+			<label for="pref-email">Correo Electrónico</label><br>
+			<input type="checkbox" id="pref-whatsapp" name="preferencia" value="whatsapp">
+			<label for="pref-whatsapp">WhatsApp</label>
+		</p>
+		<p> 
+			<label for="mensaje">Mensaje:</label><br>
+			<textarea id="mensaje" name="mensaje" rows="5"></textarea>
+		</p>
+		<p>
+			<button type="submit">Enviar mensaje</button>
+		</p>
+		</form>
+	</section>
+</main>
+
+<footer id="Site-footer">
+	<p> Pixel norte - 2026 </p>
+</footer>
